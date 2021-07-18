@@ -1,0 +1,20 @@
+.card-cont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.loader {
+    text-align: center;
+}
+@media only screen and (max-width: 1110px) {
+    .card-cont {
+        grid-template-columns: auto auto;
+    }
+}

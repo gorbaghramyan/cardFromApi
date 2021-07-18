@@ -1,0 +1,30 @@
+.card {
+    border: 1px dashed black;
+    width: 30vw;
+    text-align: center;
+    background-image: linear-gradient(to right bottom,#112d79bd,#71a6d8);
+    color: white;
+    font-size: 18px;
+    height: 100%;
+}
+
+.card-wrapper {
+    margin: 15px 0;
+    
+}
+
+h1 {
+    text-shadow: 1px 1px black;
+}
+
+strong {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 1110px) {
+    .card {
+        width: 40vw;
+    }
+}
